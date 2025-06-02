@@ -1,0 +1,11 @@
+CARDINAL: North
+
+LOCATION: Seventh track
+
+TITLE: eiekb.zg4
+
+DESCRIPTION: 
+V
+zhpzlpcyf
+
+SOLUTION: "V" hints at "vigenere," just like how "64" refers to base64 in the first puzzle. Vigenere with what key? You may guess that "eiekb.zg4" is supposed to translate to "north.mp4" and doing the vigenere cipher backwards gets you the key "RUN". It also flashes at around 0:06. With "RUN" the description translates to "INCIRCLES" as in "run in circles" -> Seventh track.

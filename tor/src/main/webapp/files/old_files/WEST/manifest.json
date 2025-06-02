@@ -1,0 +1,27 @@
+{
+    "path": "/old_files/WEST",
+    "contents": [
+        {
+            "name": "Parent Directory",
+            "type": "parent",
+            "parentPath": "/old_files",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "b3Iucm5zcXV2byxybS51c29ybXZzdS55YnE.mp4",
+            "type": "mp4",
+            "lastModified": -1,
+            "size": "1.2M",
+            "description": "-"
+        },
+        {
+            "name": "west.txt",
+            "type": "txt",
+            "lastModified": -1,
+            "size": "2.0K",
+            "description": "-"
+        }
+    ]
+}

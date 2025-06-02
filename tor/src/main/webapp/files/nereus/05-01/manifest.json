@@ -1,0 +1,21 @@
+{
+    "path": "/nereus/05-01",
+    "unlockDate": 1746082800,
+    "contents": [
+        {
+            "name": "Parent Directory",
+            "type": "parent",
+            "parentPath": "/nereus",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "d0d6c2cdfa82c07.pdf",
+            "type": "pdf",
+            "lastModified": 1720543892,
+            "size": "5.0M",
+            "description": "-"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+CARDINAL: South
+
+LOCATION: Mandeville B202
+
+TITLE: c291dGgubXA0
+
+DESCRIPTION: 
+64
+ZmluZCB1cyBpbiB0aGUgY2xhc3Nyb29tIGJlbmVhdGggdGhlIGVhcnRoLCB3aGVyZSBhcnQgaGFzIGJlZW4gZHJpdmVuIGludG8gbWFkbmVzcw==
+
+SOLUTION: Title decrypts to "south.mp4" in base64. "64" in description to hint at base64 encryption. Description ciphertext decrypts to "find us in the classroom beneath the earth, where art has been driven into madness"
+
+"Classroom beneath the earth" is the basement level of Mandevlille, specifically B202. "Where art has been driven into madness" refers to the Mandeville art gallery. If anyone remembers that weird-ass art installation with the tongue licking keyboard thing (you know exactly what I mean), if that's not madness, I don't know what is.

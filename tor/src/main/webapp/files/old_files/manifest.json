@@ -1,0 +1,56 @@
+{
+    "path": "/old_files",
+    "unlockDate": 1747033200,
+    "contents": [
+        {
+            "name": "Parent Directory",
+            "type": "parent",
+            "parentPath": "/",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "SOUTH",
+            "type": "folder",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "NORTH",
+            "type": "folder",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "WEST",
+            "type": "folder",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "EAST",
+            "type": "folder",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "README.txt",
+            "type": "txt",
+            "lastModified": -1,
+            "size": "983B",
+            "description": "-"
+        },
+        {
+            "name": "light.wav",
+            "type": "wav",
+            "lastModified": -1,
+            "size": "8.4M",
+            "description": "🦖🌿"
+        }
+    ]
+}

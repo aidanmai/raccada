@@ -1,0 +1,32 @@
+CARDINAL: West
+
+LOCATION: Pangea parking structure
+
+TITLE: b3Iucm5zcXV2byxybS51c29ybXZzdS55YnE
+
+DESCRIPTION:
+NQTAXPFTQRAGDYMPZQEEQEEQQWFTQRADQZMYQARFTQRAGDZMYQE
+po.umvvusp,-vs.trpmtrt
+qn.nrnpmn,-un.pqtvoro
+pv.vssnmmo,-tr.nprmpp
+qt.sotssnn,-noo.ppmvnqt
+
+SOLUTION: First line of description translates to "BEHOLD THE FOUR MADNESSES SEEK THE FORENAME OF THE FOUR NAMES" via Affine cipher A=1 B=12. Performing the same decryption on the next four lines and translating a=1 b=2 c=3 etc leads to a set of coordinates:
+
+32.8099863,-96.7530757
+41.151301,-81.3479252
+39.9661002,-75.135033
+47.6276611,-122.3309147
+
+Each of the four coordinates points to an art piece:
+
+John Brough Miller - Descending Spheres
+Brinsley Tyrrell - Behind the Brain Plaza
+Natalie Flor Negron - Ancient River
+Ed Carpenter - Vessel
+
+"Forename" refers to "first name", and taking the first word of each of the art pieces' titles is "Descending Behind Ancient Vessel." "Ancient Vessel" refers to parking lot - "ancient" as in Pangea, and "vessel" as in containing cars. "Descending behind" refers to the clue being at the bottom of the back staircase of Pangea.
+
+Decrypting the title through the same affine cipher -> coordinates routine leads to "East-West/West-East" by Richard Serra. This was just so you couldn't immediately tell whether the location was to the east or west of the north-south line.
+
+As an aside, watching y'all go on the orthopedic surgeon tangent and almost doxxing / contacting the surgeons was the most terrifying thing ever...

@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #000;
+    font-family: "Courier New", monospace;
+    overflow: auto;
+    color: white;
+    width: fit-content;
+    min-width: 100%;
+}
+
+#stego {
+    max-width:100%;
+    width:500px;
+}

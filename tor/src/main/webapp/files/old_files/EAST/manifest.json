@@ -1,0 +1,27 @@
+{
+    "path": "/old_files/EAST",
+    "contents": [
+        {
+            "name": "Parent Directory",
+            "type": "parent",
+            "parentPath": "/old_files",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "RGZjcm10IChYc3Jtdmh2IGtzcm9saGxrc2IpIC0.mp4",
+            "type": "mp4",
+            "lastModified": -1,
+            "size": "4.4M",
+            "description": "-"
+        },
+        {
+            "name": "east.txt",
+            "type": "txt",
+            "lastModified": -1,
+            "size": "983B",
+            "description": "-"
+        }
+    ]
+}

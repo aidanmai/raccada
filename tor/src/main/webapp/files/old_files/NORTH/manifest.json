@@ -1,0 +1,27 @@
+{
+    "path": "/old_files/NORTH",
+    "contents": [
+        {
+            "name": "Parent Directory",
+            "type": "parent",
+            "parentPath": "/old_files",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "eiekb.mp4",
+            "type": "mp4",
+            "lastModified": -1,
+            "size": "511K",
+            "description": "-"
+        },
+        {
+            "name": "north.txt",
+            "type": "txt",
+            "lastModified": -1,
+            "size": "463B",
+            "description": "-"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "path": "/nereus/04-28",
+    
+    "contents": [
+        {
+            "name": "Parent Directory",
+            "type": "parent",
+            "parentPath": "/nereus",
+            "lastModified": -1,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "9939838e19097bf.pdf",
+            "type": "pdf",
+            "lastModified": 1720528401,
+            "size": "6.7M",
+            "description": "-"
+        },
+        {
+            "name": "102b2d3904f0ff5.pdf",
+            "type": "pdf",
+            "lastModified": 1726966652,
+            "size": "5.2M",
+            "description": "-"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+body {
+    background-image: url(/resources/stuart-4.jpg);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #000;
+    font-family: "Courier New", monospace;
+    overflow: auto;
+    color: white;
+    width: fit-content;
+    min-width: 100%;
+}
+
+#logo {
+    width: 300px;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInScale 1s forwards 0.3s;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+#text {
+    width:500px;
+    max-width:70%;
+    text-align:center;
+    min-height:20px;
+    height:auto;
+}
+
+#password {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #202020;
+    background: none;
+    outline: none;
+    color: white;
+    font-family: "Courier New", monospace;
+    -webkit-text-security: disc;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards 1s;
+}
+
+#arrow {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    animation-delay: 1s;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards 1.3s;
+}
+
+.shake {
+    animation: shake 0.3s !important;
+}
+
+#error {
+    color:red;
+    height:16px;
+    padding-top:10px;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOutScale {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}

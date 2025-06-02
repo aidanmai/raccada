@@ -1,0 +1,20 @@
+CARDINAL: East
+
+LOCATION: Warren canyon
+
+TITLE: RGZjcm10IChYc3Jtdmh2IGtzcm9saGxrc2IpIC0+IEtscm1naCBsdSBnc3YgeGxua3poaC5uazQ
+
+DESCRIPTION:
+TnJ3a2xybWcKS3pmbyBCbGZvbyAtPiBUc2ZvLCBMbnptCkR2eXl2dyAtPiBYc2lyaGdsa3N2aSBVbGhndmkgKHZ4bG1sbnJoZyk
+
+SOLUTION: Both the title and description are in base64. Decrypting the description from base64 then decrypting via affine cipher A=25 B=25 leads to:
+
+Midpoint
+Paul Youll -> Ghul, Oman
+Webbed -> Christopher Foster (economist)
+
+These refer to wikipedia articles, and "midpoint" refers to the midpoint of the shortest path between the two articles, which can be found via the website "Six Degrees of Wikipedia". The midpoint between Paul Youll and Ghul, Oman is the article "Canyon", and the second midpoint is "Traffic collision". This refers to the clue being on a broken car door in Warren Canyon.
+
+Performing the same routine on the title leads to "Wuxing (Chinese philosophy) -> Cardinal direction", which had five midpoints: the article for all four cardinal directions and also "Cardinal direction". Again, this was just so it wasn't immediately obvious which direction to look in.
+
+This puzzle was born out of one too many nights of Wikipedia races. Shoutout to ███ for brute-forcing articles for like 3 hours to find articles with the right midpoint and exactly one shortest path between them lmao

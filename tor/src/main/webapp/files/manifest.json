@@ -1,0 +1,19 @@
+{
+    "path": "/",
+    "contents": [
+        {
+            "name": "nereus",
+            "type": "folder",
+            "lastModified": 1745255230,
+            "size": "-",
+            "description": "-"
+        },
+        {
+            "name": "old_files",
+            "type": "folder",
+            "lastModified": 1745255230,
+            "size": "-",
+            "description": "-"
+        }
+    ]
+}

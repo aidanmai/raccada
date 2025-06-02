@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: #000;
+    font-family: "Courier New", monospace;
+    overflow: auto;
+    color: white;
+    width: fit-content;
+    min-width: 100%;
+    white-space:nowrap;
+    font-size: 16px;
+}
+
+a {
+    color:dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#table {
+    width:auto;
+    text-align:left;
+    min-height:20px;
+    height:auto;
+    overflow: auto;
+}
+
+.rowHidden {
+    text-align: left;
+    height: 16px;
+    color: black;
+    width: 1248px;
+}
+
+.row {
+    text-align: left;
+    height: 18.5px;
+    color: white;
+    width: 1248px;
+    overflow: auto;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.row span:hover {
+    background-color: #4a4a4a;
+}
+
+
+textarea {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #202020;
+    background: none;
+    outline: none;
+    color: white;
+    font-family: "Courier New", monospace;
+    resize:none;
+}
+
+#arrow {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    float:right;
+}
+
+#error {
+    min-height: 16px;
+}
+
+.requestSuccess {
+    color: lawngreen;
+    text-align: center;
+}
+
+.requestError {
+    color: red;
+    text-align: center;
+}
+
+#form {
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.status2 {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s forwards 0.2s;
+}
+
+.status1 {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s forwards 0.3s;
+}
+
+.welcome {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s forwards 0.4s;
+}
+
+.back {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s forwards 0.5s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
